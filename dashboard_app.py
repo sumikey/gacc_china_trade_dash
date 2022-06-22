@@ -49,7 +49,7 @@ st.write('# Dashboard for Exploring Chinese Goods Trade with the world')
 st.write('---')
 st.write("This dashboard uses data collected from the [OEC](https://oec.world/) and the [China Customs Interactive Database](http://43.248.49.97/indexEn) to explore China's trade with international partners at the HS2 Digit level. By default the charts will show monthly trade values, but this can be changed to a rolling monthly sum using the slider in the sidebar. The dataset includes data from 2017 through to 2022, by default charts will show all of the data available given the metrics used for that chart (year on year differences and rolling values will lose some preceeding data-points) but the preferred start/end year to be shown on charts can also be set in the axis. For relevant sections, you can use the selectors to choose which trade partners you would like to examine and the graphs will automatically update to show a selection of relevant visuals.")
 st.write('--')
-st.write('Date underlying this dashboard was collected from OEC via API request and from GACC manually. Preprocessing was completed in Pandas, visuals are implemented in Plotly and the web-app is made / hosted by Streamlit. Notebooks and code can be found at the following Github Repo: xxxxxx ')
+st.write('Date underlying this dashboard was collected from OEC via API request and from GACC manually. Preprocessing was completed in Pandas, visuals are implemented in Plotly and the web-app is made / hosted by Streamlit. Notebooks and code can be found at the following Github Repo: https://github.com/sumikey/gacc_china_trade_dash/tree/sumikey-draft1 ')
 st.write('---')
 
 # ------------------------ ADDING A sidebar for rolling & Month Axis selection
